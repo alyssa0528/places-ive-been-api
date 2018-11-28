@@ -31,6 +31,6 @@ class Api::AttractionsController < ApplicationController
   private
 
   def attraction_params
-    params.require(:attraction).permit(:name, :city_id, :year_visited, :img_url, :notes)
+    params.require(:attraction).permit(:name, :city, :year_visited, :img_url, :notes)
   end
 end

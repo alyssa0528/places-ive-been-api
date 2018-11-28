@@ -1,5 +1,5 @@
 class AttractionSerializer < ActiveModel::Serializer
-  attributes :id, :name, :year_visited, :notes, :img_url
+  attributes :id, :name, :year_visited, :notes, :img_url, :city
 
-  belongs_to :city
+
 end

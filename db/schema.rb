@@ -10,22 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_21_201748) do
+ActiveRecord::Schema.define(version: 2018_11_28_201952) do
 
   create_table "attractions", force: :cascade do |t|
     t.string "name"
-    t.integer "city_id"
     t.integer "year_visited"
     t.string "img_url"
-    t.string "notes"
+    t.text "notes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "cities", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string "city"
   end
 
 end
