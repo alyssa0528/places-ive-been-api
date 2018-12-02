@@ -28,6 +28,14 @@ class Api::AttractionsController < ApplicationController
     end
   end
 
+  def destroy
+    attraction = Attraction.find(params[:id])
+
+    if attraction.destroy
+      render json: Attraction.all 
+    end
+  end
+
   private
 
   def attraction_params
