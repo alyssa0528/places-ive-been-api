@@ -1,24 +1,6 @@
-# README
+# Places I've Been API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Places I've Been API is the Rails back-end for Places I've Been. [Places I've Been Client](https://github.com/alyssa0528/places-ive-been-client) serves as the React/Redux front-end.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+Please refer to the MIT License documentation in the LICENSE file for more information.
